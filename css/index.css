@@ -83,13 +83,13 @@
   display: flex;
 }
 
-./*header-nav__menu-item--close-icon{
+.header-nav__menu-item--close-icon{
   position: absolute;
   top: 1rem;
   right: 1rem;
   font-size: 1.5rem;
   cursor: pointer;
-}*/
+}
 
 .header-nav__menu-link {
   position: relative;
@@ -118,6 +118,12 @@
   .header-nav__menu-link--active::before,
 .header-nav__menu-link:hover::before {
   width: 100%;
+}
+
+@media (min-width:854px){
+  .body{
+    background-color: ;
+  }
 }
   
 /*.body{
